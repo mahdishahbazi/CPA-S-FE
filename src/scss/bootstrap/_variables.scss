@@ -1,0 +1,100 @@
+// Base Config
+$enable-navbar-vertical: true !default;
+$enable-dark-mode: true !default;
+$enable-negative-margins: false !default;
+$enable-cssgrid: true !default;
+
+
+// Colors
+$green_1: #288537;
+$green_2: #58B947;
+$green_3: #82C341;
+$dark_grey: #323c43;
+$dark_blue: #0063a5;
+$teal: #00838a;
+$purple: #57007c;
+$orange: #f6863e;
+$red: #e11a2c;
+$bright_blue: #00aae4;
+
+
+// Theme Colors
+
+$theme-colors: (
+  "primary": $green_1,
+  "secondary": #D1D5DB,
+  "success": $green_2,
+  "info": $bright_blue,
+  "warning": #ffc107,
+  "danger": $red,
+) !default;
+
+$theme-colors: map-remove($theme-colors, "light", "dark");
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value") !default;
+
+
+
+// Forms
+
+
+// Buttons
+
+
+// Dropdown
+
+
+// Button Group
+
+
+// Nav
+
+
+// Navbar
+
+
+// Card
+
+
+// Accordion
+
+
+// Breadcrumb
+
+
+// Pagination
+
+
+// Badge
+
+
+// Alert
+
+
+// Progress
+
+
+// List Group
+
+
+// Close X
+
+
+// Toasts
+
+
+// Modals
+
+
+// Tooltip
+
+
+// Popover
+
+
+// Spinners
+
+
+// Offcanvas
+
+
+// Placeholders

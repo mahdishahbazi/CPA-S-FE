@@ -1,0 +1,34 @@
+$utilities: map-merge($utilities,  (
+  "object": (
+    property: object-fit,
+    class: object,
+    values: (
+      contain: contain,
+      cover: cover,
+      fill: fill,
+      scale-down: scale-down,
+      none: none,
+    )
+  ),
+  "cursor": (
+    property: cursor,
+    class: cursor,
+    values: (
+      auto: auto,
+      pointer: pointer,
+      move: move,
+      not-allowed: not-allowed,
+      zoom-in: zoom-in,
+      zoom-out: zoom-out,
+      default: default,
+      none: none,
+      help: help,
+      progress: progress,
+      wait: wait,
+      text: text,
+      v-text: vertical-text,
+      grab: grab,
+      grabbing: grabbing,
+    )
+  ),
+))
